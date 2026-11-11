@@ -5,7 +5,7 @@ const fotoGaleri = [
   },
   {
     judul: "Keindahan Air Terjun",
-    url: "foto-02.jpg"
+    url: "foto-02.wepb"
   },
   {
     judul: "Suasana Air Terjun",
@@ -40,11 +40,11 @@ const fotoGaleri = [
   },
    {
     judul: "Air Terjun Coban Srengenge",
-    url: "foto-11.jpg"
+    url: "foto-11.png"
   },
    {
     judul: "Air Terjun Coban Srengenge",
-    url: "foto-12.jpg"
+    url: "foto-12.png"
   },
       
   
