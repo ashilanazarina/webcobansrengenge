@@ -231,6 +231,20 @@ footer {
   padding: 25px;
 }
 
+
+#daftarGaleri .card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+#daftarGaleri .card {
+  min-width: 0;
+  overflow: hidden;
+}
+
+
 @media(max-width: 600px) {
   header {
     justify-content: center;
