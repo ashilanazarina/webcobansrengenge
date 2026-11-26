@@ -54,6 +54,27 @@ const fotoGaleri = [
   }
 ];
 
+
+// MENAMPILKAN FOTO GALERI
+
+const daftarGaleri = document.getElementById("daftarGaleri");
+
+fotoGaleri.forEach(function(foto) {
+  const card = document.createElement("article");
+
+  card.className = "card";
+
+  card.innerHTML = `
+    <img src="${foto.url}" alt="${foto.judul}">
+    <div class="card-content">
+      <h3>${foto.judul}</h3>
+    </div>
+  `;
+
+  daftarGaleri.appendChild(card);
+});
+
+
 const daftarGaleri = document.getElementById("daftarGaleri");
 
 fotoGaleri.forEach((foto) => {
